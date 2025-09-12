@@ -11,3 +11,7 @@ services:
 volumes:
   ddns_state:
 ```
+
+```bash
+docker compose up -d
+```
