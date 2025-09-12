@@ -1,0 +1,13 @@
+# How to run - docker compose
+```yaml
+services:
+  ddns:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - ddns_state:/data
+
+volumes:
+  ddns_state:
+```
