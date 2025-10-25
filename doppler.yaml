@@ -1,0 +1,3 @@
+setup:
+  - project: cloudflare-ddns 
+    config: prd
